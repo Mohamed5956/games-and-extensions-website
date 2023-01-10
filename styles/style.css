@@ -101,6 +101,9 @@ section.firstGame p,section.secondGame p,section.thirdGame p,section.fourthGame 
     padding-top: 20px;
 }
 /* --------------------------------------------------- */
+.Contacts{
+    margin-top: 2.5em;
+}
 a{
     text-decoration: none;
 }
