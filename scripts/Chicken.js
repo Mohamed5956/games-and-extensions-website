@@ -14,7 +14,7 @@ class Player {
     this.rotation = 0;
 
     const image = new Image();
-    image.src = "../assets/imgChecken/ship6.png";
+    image.src = "../assets/imgChicken/ship6.png";
     image.onload = () => {
       this.image = image;
       this.width = 100;
@@ -69,7 +69,7 @@ class Invader {
       y: 0,
     };
     const image = new Image();
-    image.src = "../assets/imgChecken/invader.png";
+    image.src = "../assets/imgChicken/invader.png";
     image.onload = () => {
       this.image = image;
       this.width = 60;
