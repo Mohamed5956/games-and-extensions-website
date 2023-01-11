@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo_Move</title>
+    <link rel="stylesheet" a href="styles/movelogo.css">
+</head>
+<body>
+<div class="container">
+    <div class="ground">
+        <div id="circle" onclick="count()"></div>
+    </div>
+    <div class="details">
+        <h1>Tap On The Logo</h1>
+        <h3>Press On A Level To Start The Game</h3>
+        <div class="level">
+            <button onclick="easy()">EASY</button>
+            <button onclick="medium()">MEDIUM</button>
+            <button onclick="hard()">HARD</button>
+        </div>
+        <div class="display_score">
+            <h2>Score</h2>
+            <h2 id="score">0</h2>
+        </div>
+        <button onclick="restart()">RESTART</button>
+        <button onclick="BacktoHome()">Home</button>
+    </div>
+</div> 
+    <script src="scripts/movelogo.js"></script>
+</body>
+</html>
