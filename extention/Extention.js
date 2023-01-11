@@ -17,6 +17,14 @@ function run()
 window.onload = run ;
 
 
-
+function openFACE()
+{
+  window.location.assign("http://www.facebook.com")
+  
+}
+function TOHome()
+{
+  window.location.assign("http://127.0.0.1:5500/index.html")
+}
 
 
