@@ -267,6 +267,7 @@ addEventListener("keydown", ({ keyCode }) => {
       keys.left.pressed = true;
       break;
     case 32:
+      document.getElementById('audio').play();
       console.log("space");
       projectiles.push(
         new Projectile({
@@ -280,7 +281,7 @@ addEventListener("keydown", ({ keyCode }) => {
           },
         })
       );
-      console.log(projectiles);
+      // console.log(projectiles);
       // keys.space.pressed = true;
       break;
   }
@@ -298,6 +299,7 @@ addEventListener("keyup", ({ keyCode }) => {
       keys.left.pressed = false;
       break;
     case 32:
+      document.getElementById('audio').play();
       console.log("space");
       keys.space.pressed = false;
       break;
