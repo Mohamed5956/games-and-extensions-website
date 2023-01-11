@@ -135,7 +135,7 @@ for the whole animation */
 .details {
     width: 30%;
     position: relative;
-    background-color: rgb(6, 8, 114);
+    background-color: rgb(6, 8, 114);;
     color: white;
     display: block;
     text-align: center;
