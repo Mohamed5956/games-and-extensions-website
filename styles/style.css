@@ -84,16 +84,16 @@ section.featuers .text-center{
 }
 /* --------------------------------------------------- */
 /* firstGame Section */
-section.firstGame .text,section.secondGame .text,section.thirdGame .text,section.fourthGame .text{
+section.Games .text,section.extensions .text{
     padding: 134px  0;
 }
-section.firstGame h5,section.secondGame h5,section.thirdGame h5,section.fourthGame h5{
+section.Games h5,section.extensions h5{
     font-size: 42px;
     font-weight: 700;
     line-height: 48px;
     color: var(--black);
 }
-section.firstGame p,section.secondGame p,section.thirdGame p,section.fourthGame p{
+section.Games p,section.extensions p{
     font-size: 18px;
     font-weight: 300;
     line-height: 28px;
