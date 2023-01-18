@@ -1,7 +1,7 @@
         //function easy
         function easy() {
             document.getElementById('circle')
-                .style.animationDuration = '20s';
+                 .style.animationDuration = '20s';
             document.getElementById('circle')
                 .className = 'crcl';
         }

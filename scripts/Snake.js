@@ -13,22 +13,22 @@ var context=canvas.getContext('2d');
 
 const GRID=10; // per row has 30 grids
 const min=1;
-const max=29;
+const max=39;
 
 
 var gameover = false;
 var size=2; //body size intialized
 
 
-//width by GRID = 30 so each row has 30
-//height by GRID=30 so each column has 30
+//width by GRID = 40 so each row has 40
+//height by GRID=40 so each column has 40
 //total = 900 position
-var WGrid=new Array(900);
-var HGrid=new Array(900);
+var WGrid=new Array(1600);
+var HGrid=new Array(1600);
 
 for(var i=0;i<=size;i++){
-    WGrid[i] = 40- i*10;
-    HGrid[i] = 40;
+    WGrid[i] = 50- i*10;
+    HGrid[i] = 50;
 
 }
 

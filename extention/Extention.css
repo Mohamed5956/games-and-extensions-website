@@ -1,7 +1,24 @@
 body{
     display: flex;
    justify-content: center;
+   background-color: rgb(160, 1, 40);
+   color:rgb(162, 160, 172);
 }
-button{
-    margin-top: 400px;
+button {
+    border-radius: 25px;
+    width: 8em;
+    height: 3em;
+    font-size: 20px;
+    border: 2px solid white;
+    background: rgb(20, 4, 114);
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 150px;
+}
+button:hover {
+    background-color: white;
+    color: rgb(20, 4, 114);
+    box-shadow: 0px 10px 20px 10px white;
+    transition-duration: 1s;
 }

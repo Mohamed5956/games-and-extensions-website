@@ -135,7 +135,7 @@ for the whole animation */
 .details {
     width: 30%;
     position: relative;
-    background-color: rgb(6, 8, 114);;
+    background-color: rgb(235, 6, 63);
     color: white;
     display: block;
     text-align: center;
@@ -169,7 +169,7 @@ button {
 
 button:hover {
     background-color: white;
-    color: rgb(6, 8, 114);
+    color: rgb(235, 6, 63);
     box-shadow: 0px 10px 20px 10px white;
     transition-duration: 1s;
 }
